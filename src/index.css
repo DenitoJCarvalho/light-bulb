@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+div.ascender img#ascenderLuz {
+    display: none;
+}
+
+div.content-btn {
+    display: flex;
+    flex-flow: column;
+}
+
+.content-btn .btn {
+    padding: 0.5rem 1rem;
+    margin-top: 0.4rem;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: medium;
+    background-color: rgba(255, 142, 0,.8);
+    color: #FFF;
+    box-shadow: 1px 2px 2px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+.content-btn .btn:nth-child(1):hover {
+    background-color: rgba(6, 255, 0,1);
+    filter: brightness(0.9);
+}
+
+
+.content-btn .btn:nth-child(2):hover {
+    background-color: rgba(255, 23, 0, .8);
+    filter: brightness(0.9);
+}
